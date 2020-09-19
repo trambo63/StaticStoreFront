@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: rgb(153, 152, 152);
     background-image: url(images/background.jpg);
+    background-attachment: fixed;
 }
 
 
@@ -100,7 +100,7 @@ section ul {
     padding: 0em;
 }
 #products {
-    margin: 25px 55px;
+    margin: 25px 55px 25px 55px;
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: auto;
@@ -133,6 +133,11 @@ section ul {
     text-align: center;
 }
 
+#aboutText {
+    text-align: left;
+    font-size: 18px;
+}
+
 #contact {
     margin: 25px 55px;
 }
@@ -161,6 +166,4 @@ footer img {
     width: 60px;
 }
 
-#leftText {
-    text-align: left;
-}
+

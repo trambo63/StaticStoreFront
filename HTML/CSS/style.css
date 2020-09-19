@@ -156,11 +156,11 @@ footer {
     text-align: center;
 }
 
-#leftText {
-    text-align: left;
-}
-
 footer img {
     height: 30px;
     width: 60px;
+}
+
+#leftText {
+    text-align: left;
 }
